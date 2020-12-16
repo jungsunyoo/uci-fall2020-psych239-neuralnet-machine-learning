@@ -116,13 +116,23 @@ As described in the original paper, model performance was assessed via top-1 acc
 
 This code is heavily based on https://github.com/leftthomas/SimCLR. The original code is implemented in https://github.com/google-research/simclr. 
 
-The three models were trained using
+The three models were trained on the pretext task using
 
      pattern_simCLR.ipynb
+     
+and fined-tuned and tested using
+     
+     Linear.ipynb
+.
 The architecture of the baseline model (model 1) and model 2 are contained in 
 
      SimCLR/model.py
 The architecture of model 3 is contained in 
 
      SimCLR/model_separation.py
+.
+
+The results (t-SNE) were visualized using
+
+     Recent_Result visualization.ipynb
 .
