@@ -91,6 +91,7 @@ As described in the original paper, model performance was assessed via top-1 acc
      
 ## Discussion and Conclusions
 
+I hypothesized that (1) the proposed model will show comparable performance to the original SimCLR and (2) the proposed model will produce more separable latent vectors for similar instances while retaining the difference between classes. To address these, first, the original model outperforms the proposed models in both top-1 accuracy and top-5 accuracy tests. Second, the latent vectors of our proposed model are not more sparse compared to the baseline model. Given that the gamma factor which balances between the two objectives was not tuned but instead fixed as 0.01, the model may benefit from future parameter tuning. 
 
 ## References
 1. Nguyen, T. S., Stueker, S., & Waibel, A. (2020). Super-Human Performance in Online Low-latency Recognition of Conversational Speech. arXiv preprint arXiv:2010.03449.
