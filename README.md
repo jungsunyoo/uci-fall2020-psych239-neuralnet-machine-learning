@@ -42,7 +42,7 @@ The architecture of the baseline model and our first model follows the details o
 This is the key manipulation of our study. The baseline model uses the loss function described in the original paper: 
 <img src="original loss.png"
      alt="original loss"
-     height=500
+     height=100
      style="float: left; margin-right: 10px;" />
 . Our first and second model adds an L2 distance between the original and modified images (zi and zj) as the second term to the original loss function, weighted by a hyperparameter gamma. In this study, gamma is set to 0.01. 
 [formula]
