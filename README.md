@@ -46,9 +46,7 @@ This is the key manipulation of our study. The baseline model uses the loss func
      height=100
      style="float: left; margin-right: 10px;" />
 <p>
-. Our first and second model adds an L2 distance between the original and modified images (zi and zj) as the second term to the original loss function, weighted by a hyperparameter gamma. In this study, gamma is set to 0.01. 
-[formula]
-We assume this will make the model learn the two objectives simultaneously. 
+. Our first and second model adds an L2 distance between the original and modified images (zi and zj) as the second term to the original loss function, weighted by a hyperparameter gamma. In this study, gamma is set to 0.01. We assume this will make the model learn the two objectives simultaneously. 
 ### Training settings
 All models were trained on Google Colab. Batch size was set to 256 (reduced from original model’s 512 due to limited computational resource) for both train and test. Models were trained for 100 epochs for the pretext task and 50 epochs for the fine-tuning task.
 ### Evaluation metrics
