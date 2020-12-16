@@ -40,8 +40,11 @@ As in Chen et. al, the full paradigm consists of two parts: the pretext task and
 The architecture of the baseline model and our first model follows the details of Chen et. al for the pretext task and the classification task. First, the model trained in the pretext task consists the following: a data augmentation block that modifies a given input image, an encoder that converts the inputs into latent vector h, and the projection head that applies non-linear transform to the latent vectors to calculate the score. Second, before fine-tuning, the projection head is taken off and a fully-connected layer is added to yield class probabilities. Our second model differs from the original architecture in that it produces two latent vectors after the encoder. 
 ### Loss optimization
 This is the key manipulation of our study. The baseline model uses the loss function described in the original paper: 
-[formula]
-. Our first and second model adds an L2 distance between the original and modified images as the second term to the original loss function, weighted by a hyperparameter gamma. In this study, gamma is set to 0.01. 
+<img src="original loss.png"
+     alt="original loss"
+     height=500
+     style="float: left; margin-right: 10px;" />
+. Our first and second model adds an L2 distance between the original and modified images (zi and zj) as the second term to the original loss function, weighted by a hyperparameter gamma. In this study, gamma is set to 0.01. 
 [formula]
 We assume this will make the model learn the two objectives simultaneously. 
 ### Training settings
