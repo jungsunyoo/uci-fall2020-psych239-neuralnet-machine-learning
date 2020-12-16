@@ -117,9 +117,12 @@ As described in the original paper, model performance was assessed via top-1 acc
 This code is heavily based on https://github.com/leftthomas/SimCLR. The original code is implemented in https://github.com/google-research/simclr. 
 
 The three models were trained using
+
      pattern_simCLR.ipynb
 The architecture of the baseline model (model 1) and model 2 are contained in 
+
      SimCLR/model.py
 The architecture of model 3 is contained in 
+
      SimCLR/model_separation.py
 .
