@@ -36,9 +36,9 @@ As described in the original paper, model performance was assessed via top-1 acc
 
 | Model        | Best Top-1 accuracy  | Best Top-5 accuracy |
 | ------------- |:-------------:| -----:|
-| Baseline      | right-aligned | $1600 |
-| Model 1      | centered      |   $12 |
-| Model 2 | are neat      |    $1 |
+| Baseline      | 85.15% | 99.6% |
+| Model 1      | 83.8%      |   99.44% |
+| Model 2 | 82.84%      |    99.45% |
 
 
 ### Visualization of latent vector (t-SNE)
