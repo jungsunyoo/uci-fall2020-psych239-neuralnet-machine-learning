@@ -11,7 +11,7 @@ Recently, various self-supervised learning methods have been proposed to overcom
 <p>
 <img src="simclr_framework.png"
      alt="SimCLR"
-     height=200
+     height=350
      style="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> The SimCLR framework proposed by Chen et al. </em>
 <p>
@@ -24,7 +24,7 @@ RL, however, also faces similar difficulties in generalization. One such difficu
 <p>
 <img src="NEC.png"
      alt="NEC"
-     height=200
+     height=350
      style="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 2.</strong> The Neural episodic control model proposed by Pritzel et al. </em>
 <p>
