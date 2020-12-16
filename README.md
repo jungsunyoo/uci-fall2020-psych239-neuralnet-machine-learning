@@ -93,5 +93,20 @@ As described in the original paper, model performance was assessed via top-1 acc
 
 
 ## References
+1. Nguyen, T. S., Stueker, S., & Waibel, A. (2020). Super-Human Performance in Online Low-latency Recognition of Conversational Speech. arXiv preprint arXiv:2010.03449.
 
+2. https://www.springboard.com/blog/narrow-vs-general-ai/
 
+3. Yosinski, J., Clune, J., Bengio, Y., & Lipson, H. (2014). How transferable are features in deep neural networks?. In Advances in neural information processing systems (pp. 3320-3328).
+
+4. Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020). A simple framework for contrastive learning of visual representations. arXiv preprint arXiv:2002.05709.
+
+5. Botvinick, M., Ritter, S., Wang, J. X., Kurth-Nelson, Z., Blundell, C., & Hassabis, D. (2019). Reinforcement learning, fast and slow. Trends in cognitive sciences, 23(5), 408-422.
+
+6. Lengyel, M., & Dayan, P. (2007). Hippocampal contributions to control: the third way. Advances in neural information processing systems, 20, 889-896.
+
+7. Blundell, C., Uria, B., Pritzel, A., Li, Y., Ruderman, A., Leibo, J. Z., ... & Hassabis, D. (2016). Model-free episodic control. arXiv preprint arXiv:1606.04460.
+
+8. Pritzel, A., Uria, B., Srinivasan, S., Puigdomenech, A., Vinyals, O., Hassabis, D., ... & Blundell, C. (2017). Neural episodic control. arXiv preprint arXiv:1703.01988.
+
+9. Lee, H., Wang, C., Deshmukh, S. S., & Knierim, J. J. (2015). Neural population evidence of functional heterogeneity along the CA3 transverse axis: pattern completion versus pattern separation. Neuron, 87(5), 1093-1105.
