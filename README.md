@@ -33,6 +33,14 @@ All models were trained on Google Colab. Batch size was set to 256 (reduced from
 As described in the original paper, model performance was assessed via top-1 accuracy and top-5 classification accuracy after fine-tuning.
 ## Results
 ### Classification performance
+
+| Model        | Best Top-1 accuracy  | Best Top-5 accuracy |
+| ------------- |:-------------:| -----:|
+| Baseline      | right-aligned | $1600 |
+| Model 1      | centered      |   $12 |
+| Model 2 | are neat      |    $1 |
+
+
 ### Visualization of latent vector (t-SNE)
 
 ## Discussion and Conclusions
