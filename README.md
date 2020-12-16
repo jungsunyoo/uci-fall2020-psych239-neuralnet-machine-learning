@@ -45,7 +45,7 @@ As described in the original paper, model performance was assessed via top-1 acc
 <p>
 <img src="tSNE_model1.png"
      alt="model1"
-     height=900
+     height=100
      style="float: left; margin-right: 10px;" />
 <em><br><strong>Figure 1.</strong> The latent vectors of model 1. </em>
 <p>
