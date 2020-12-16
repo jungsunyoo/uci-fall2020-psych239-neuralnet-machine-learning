@@ -33,7 +33,7 @@ In this study, I aim to provide a link between the two precursors of AGI – sel
 
 ## Methods
 ### Problem formulation
-As in Chen et. al, the full paradigm consists of two parts: the pretext task and classification task. First, in the pretext task, an unsupervised contrastive learning procedure is performed. The goal of the pretext task is to find weights that produce latent vector h that minimizes the objective function (described below). Then, the model without the projection head (described below) is fine-tuned in a supervised visual classification task. The performance of the fine-tuned model is considered as the final performance. We compare three models – baseline (original SimCLR), model 1 (produces a single latent vector h for pattern completion and separation), and model 2 (produces two latent vectors h for pattern completion and separation, respectively). 
+As in Chen et. al, the full paradigm consists of two parts: the pretext task and classification task. First, in the pretext task, an unsupervised contrastive learning procedure is performed. The goal of the pretext task is to find weights that produce latent vector h that minimizes the objective function (described below). Then, the model without the projection head (described below) is fine-tuned in a supervised visual classification task. The performance of the fine-tuned model is considered as the final performance. We compare three models – model 1 (baseline or original SimCLR), model 2 (produces a single latent vector h for pattern completion and separation), and model 3 (produces two latent vectors h for pattern completion and separation, respectively). 
 ### Dataset description
 [CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) was used for train and test. 
 ### Model architecture
@@ -54,8 +54,8 @@ As described in the original paper, model performance was assessed via top-1 acc
 | Model        | Best Top-1 accuracy  | Best Top-5 accuracy |
 | ------------- |:-------------:| -----:|
 | Baseline      | 85.15% | 99.6% |
-| Model 1      | 83.8%      |   99.44% |
-| Model 2 | 82.84%      |    99.45% |
+| Model 2      | 83.8%      |   99.44% |
+| Model 3 | 82.84%      |    99.45% |
 
 
 ### Visualization of latent vector (t-SNE)
@@ -111,4 +111,15 @@ As described in the original paper, model performance was assessed via top-1 acc
 
 9. Lee, H., Wang, C., Deshmukh, S. S., & Knierim, J. J. (2015). Neural population evidence of functional heterogeneity along the CA3 transverse axis: pattern completion versus pattern separation. Neuron, 87(5), 1093-1105.
 
+
+# Details on the code 
+
 This code is heavily based on https://github.com/leftthomas/SimCLR. The original code is implemented in https://github.com/google-research/simclr. 
+
+The three models were trained using
+     pattern_simCLR.ipynb
+The architecture of the baseline model (model 1) and model 2 are contained in 
+     SimCLR/model.py
+The architecture of model 3 is contained in 
+     SimCLR/model_separation.py
+.
