@@ -74,28 +74,28 @@ As described in the original paper, model performance was assessed via top-1 acc
      alt="model1"
      height=500
      style="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 3.</strong> The latent vectors of model 1. </em>
+<em><br><strong>Figure 3.</strong> The latent vectors of model 1 visualized by t-SNE. </em>
 <p>
 <p>
 <img src="tSNE_model2.png"
      alt="model2"
      height=500
      style="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 4.</strong> The latent vectors of model 2. </em>
+<em><br><strong>Figure 4.</strong> The latent vectors of model 2 visualized by t-SNE. </em>
 <p>
 <p>
 <img src="tSNE_model3-1.png"
      alt="model3-1"
      height=500
      style="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 5.</strong> The first latent vectors of model 3. </em>
+<em><br><strong>Figure 5.</strong> The first latent vectors of model 3 visualized by t-SNE. </em>
 <p>
 <p>
 <img src="tSNE_model3-2.png"
      alt="model3-2"
      height=500
      style="float: left; margin-right: 10px;" />
-<em><br><strong>Figure 6.</strong> The second latent vectors of model 3. </em>
+<em><br><strong>Figure 6.</strong> The second latent vectors of model 3 visualized by t-SNE. </em>
 <p>
      
      
