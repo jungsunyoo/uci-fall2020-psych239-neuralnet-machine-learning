@@ -28,9 +28,9 @@ This is the key manipulation of our study. The baseline model uses the loss func
 [formula]
 We assume this will make the model learn the two objectives simultaneously. 
 ### Training settings
-All models were trained on Google Colab. Batch size 256 (reduced from original model’s 512 due to limited computational resource), 100 epochs for each. 
+All models were trained on Google Colab. Batch size was set to 256 (reduced from original model’s 512 due to limited computational resource) for both train and test. Models were trained for 100 epochs for the pretext task and 50 epochs for the fine-tuning task.
 ### Evaluation metrics
-
+As described in the original paper, model performance was assessed via top-1 accuracy and top-5 classification accuracy after fine-tuning.
 ## Results
 ### Classification performance
 ### Visualization of latent vector (t-SNE)
