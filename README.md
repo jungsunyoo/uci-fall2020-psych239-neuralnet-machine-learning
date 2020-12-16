@@ -110,3 +110,5 @@ As described in the original paper, model performance was assessed via top-1 acc
 8. Pritzel, A., Uria, B., Srinivasan, S., Puigdomenech, A., Vinyals, O., Hassabis, D., ... & Blundell, C. (2017). Neural episodic control. arXiv preprint arXiv:1703.01988.
 
 9. Lee, H., Wang, C., Deshmukh, S. S., & Knierim, J. J. (2015). Neural population evidence of functional heterogeneity along the CA3 transverse axis: pattern completion versus pattern separation. Neuron, 87(5), 1093-1105.
+
+This code is heavily based on https://github.com/leftthomas/SimCLR. The original code is implemented in https://github.com/google-research/simclr. 
