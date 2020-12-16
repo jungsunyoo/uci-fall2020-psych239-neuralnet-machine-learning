@@ -18,7 +18,7 @@ In this study, I aim to provide a link between the two precursors of AGI – sel
 ### Problem formulation
 As in Chen et. al, the full paradigm consists of two parts: the pretext task and classification task. First, in the pretext task, an unsupervised contrastive learning procedure is performed. The goal of the pretext task is to find weights that produce latent vector h that minimizes the objective function (described below). Then, the model without the projection head (described below) is fine-tuned in a supervised visual classification task. The performance of the fine-tuned model is considered as the final performance. We compare three models – baseline (original SimCLR), model 1 (produces a single latent vector h for pattern completion and separation), and model 2 (produces two latent vectors h for pattern completion and separation, respectively). 
 ### Dataset description
-CIFAR
+[CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) was used for train and test. 
 ### Model architecture
 The architecture of the baseline model and our first model follows the details of Chen et. al for the pretext task and the classification task. First, the model trained in the pretext task consists the following: a data augmentation block that modifies a given input image, an encoder that converts the inputs into latent vector h, and the projection head that applies non-linear transform to the latent vectors to calculate the score. Second, before fine-tuning, the projection head is taken off and a fully-connected layer is added to yield class probabilities. Our second model differs from the original architecture in that it produces two latent vectors after the encoder. 
 ### Loss optimization
